@@ -5,7 +5,8 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
     routes :[
-
+      {path:'/one',component:() =>import('@/views/one/index')},
+      {path:'/two',component:() =>import('@/views/two/index')}
     ]
   })
 
